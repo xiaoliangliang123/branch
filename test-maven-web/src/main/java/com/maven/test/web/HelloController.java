@@ -19,4 +19,11 @@ public class HelloController {
     public String test(){
         return "Greetings from Spring Boot!";
     }
+	
+	
+	@RequestMapping("/test2")
+	@ResponseBody
+    public String test2(){
+        return "Greetings from Spring Boot!";
+    }
 }
